@@ -154,7 +154,7 @@ WHERE specialization='Cardiology';
 
 **Question 6**
 ---
--- Write a SQL query to Delete customers from 'customer' table where 'CUST_NAME' has exactly 6 characters.
+ Write a SQL query to Delete customers from 'customer' table where 'CUST_NAME' has exactly 6 characters.
 
 Sample table: Customer
 
@@ -210,7 +210,7 @@ AND PAYMENT_AMT>2000;
 
 **Question 8**
 ---
--- Write a SQL query to Delete customers with 'GRADE' 2 and 'CUST_NAME' starting with 'M', and whose 'PAYMENT_AMT' is less than 3000
+Write a SQL query to Delete customers with 'GRADE' 2 and 'CUST_NAME' starting with 'M', and whose 'PAYMENT_AMT' is less than 3000
 
 Sample table: Customer
 
@@ -243,7 +243,7 @@ AND PAYMENT_AMT<3000;
 
 **Question 9**
 ---
--- Write a SQL query to delete a doctor from Doctors table whose Specialization is 'Pediatrics' and First name is 'Michael'.
+ Write a SQL query to delete a doctor from Doctors table whose Specialization is 'Pediatrics' and First name is 'Michael'.
 
 Sample table: Doctors
 
@@ -261,7 +261,7 @@ AND First_name='Michael';
 
 **Question 10**
 ---
- Write a query to fetch details of all employees excluding the employees with first names, “Sanjay” and “Sonia” from the EmployeeInfo table.
+Write a query to fetch details of all employees excluding the employees with first names, “Sanjay” and “Sonia” from the EmployeeInfo table.
 EmpID
 
 EmpFname
