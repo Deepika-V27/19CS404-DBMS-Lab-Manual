@@ -197,7 +197,7 @@ changes()
 
 
 ```sql
---DELETE FROM CUSTOMER
+DELETE FROM CUSTOMER
 WHERE GRADE=3
 AND CUST_NAME LIKE '%BBB%'
 AND PAYMENT_AMT>2000;
@@ -230,7 +230,7 @@ changes()
 
 
 ```sql
---DELETE FROM CUSTOMER
+DELETE FROM CUSTOMER
 WHERE GRADE=2
 AND CUST_NAME LIKE 'M%'
 AND PAYMENT_AMT<3000;
@@ -250,7 +250,7 @@ Sample table: Doctors
 attributes : doctor_id, first_name, last_name, specialization
 
 ```sql
---DELETE FROM DOCTORS
+DELETE FROM DOCTORS
 WHERE SPECIALIZATION ='Pediatrics'
 AND First_name='Michael';
 ```
