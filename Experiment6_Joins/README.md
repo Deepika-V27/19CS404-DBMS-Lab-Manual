@@ -396,6 +396,7 @@ ATTRIBUTES - patient_id, first_name, last_name, date_of_birth, admission_date, d
 DOCTORS TABLE:
 ATTRIBUTES - doctor_id, first_name, last_name, specialization
 <img width="789" height="140" alt="image" src="https://github.com/user-attachments/assets/3361283a-da4e-4976-8b2e-456d7a429b19" />
+
 For example:
 Result
 patient_name     doctor_name
@@ -431,6 +432,7 @@ ATTRIBUTES - patient_id, first_name, last_name, date_of_birth, admission_date, d
 TEST_RESULT TABLES:
 ATTRIBUTES - result_id, patient_id, test_name, result, test_date
 <img width="796" height="137" alt="image" src="https://github.com/user-attachments/assets/844b69b9-c379-405d-9356-9a2254059bc3" />
+
 For example:
 Result
 patient_id       first_name       last_name        date_of_birth    admission_date  discharge_date  doctor_id
