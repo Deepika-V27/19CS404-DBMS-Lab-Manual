@@ -55,9 +55,9 @@ END;
 
 **Expected Output:**  
 Greater number is: 80
-```
+
 <img width="656" height="278" alt="image" src="https://github.com/user-attachments/assets/ccd8c6b0-e0d1-4c3c-9afe-53b59cc2a26f" />
-```
+
 
 ---
 
@@ -88,9 +88,9 @@ END;
 ```
 **Expected Output:**  
 Sum of first 10 natural numbers is: 55
-```
+
 <img width="626" height="276" alt="image" src="https://github.com/user-attachments/assets/57be9e57-d396-4556-b61e-7c9481292ea8" />
-```
+
 ---
 
 ## 3. Write a PL/SQL program to generate Fibonacci series
@@ -127,9 +127,9 @@ END;
 **Expected Output:**  
 n = 7  
 Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8
-```
+
 <img width="593" height="279" alt="image" src="https://github.com/user-attachments/assets/40cc7c21-4498-48c9-a911-49966072797f" />
-```
+
 
 ---
 
@@ -164,9 +164,9 @@ END;
 **Expected Output:**  
 n = 1535  
 Reversed number is 5351
-```
+
 <img width="591" height="274" alt="image" src="https://github.com/user-attachments/assets/f3e18202-9ad5-4fac-908b-b4bc01d1fc27" />
-```
+
 ---
 
 ## 5. Write a PL/SQL program to find the largest of three numbers
@@ -200,11 +200,12 @@ END;
 **Expected Output:**  
 a = 10, b = 9, c = 15  
 Largest of three number is 15
-```
+
 <img width="573" height="272" alt="image" src="https://github.com/user-attachments/assets/d89b8866-5e77-4cf1-a28b-8988cda8d1c0" />
-```
+
 ## RESULT
 Thus, the PL/SQL programs using variables, conditionals, and loops were executed successfully.
+
 
 
 
