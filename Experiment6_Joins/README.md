@@ -392,9 +392,10 @@ Write the SQL query that achieves the selection of the first name from the "pati
 PATIENTS TABLE:
 ATTRIBUTES - patient_id, first_name, last_name, date_of_birth, admission_date, discharge_date, doctor_id
 <img width="788" height="142" alt="image" src="https://github.com/user-attachments/assets/9ce97287-7dce-410e-bcc5-52e709672a33" />
+
 DOCTORS TABLE:
-<img width="789" height="140" alt="image" src="https://github.com/user-attachments/assets/3361283a-da4e-4976-8b2e-456d7a429b19" />
 ATTRIBUTES - doctor_id, first_name, last_name, specialization
+<img width="789" height="140" alt="image" src="https://github.com/user-attachments/assets/3361283a-da4e-4976-8b2e-456d7a429b19" />
 For example:
 Result
 patient_name     doctor_name
@@ -426,6 +427,7 @@ Write the SQL query that achieves the selection of all columns from the "patient
 PATIENTS TABLE:
 ATTRIBUTES - patient_id, first_name, last_name, date_of_birth, admission_date, discharge_date, doctor_id
 <img width="790" height="136" alt="image" src="https://github.com/user-attachments/assets/8fe6dd27-d21e-4ad3-a7c6-84c62761dca4" />
+
 TEST_RESULT TABLES:
 ATTRIBUTES - result_id, patient_id, test_name, result, test_date
 <img width="796" height="137" alt="image" src="https://github.com/user-attachments/assets/844b69b9-c379-405d-9356-9a2254059bc3" />
