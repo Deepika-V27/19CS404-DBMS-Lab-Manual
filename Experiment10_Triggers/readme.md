@@ -30,7 +30,7 @@ END;
 - Create two tables: `employees` (for storing data) and `employee_log` (for logging the inserts).
 - Write an **AFTER INSERT** trigger on the `employees` table to log the new data into the `employee_log` table.
 - Program
-CREATE TABLE employees (
+- CREATE TABLE employees (
     emp_id     NUMBER,
     emp_name   VARCHAR2(50),
     salary     NUMBER
@@ -69,7 +69,7 @@ SELECT * FROM employee_log;
 - Write a **BEFORE DELETE** trigger on the `sensitive_data` table.
 - Use `RAISE_APPLICATION_ERROR` to prevent deletion and issue a custom error message.
 - Program
-CREATE TABLE sensitive_data (
+- CREATE TABLE sensitive_data (
     id   NUMBER,
     info VARCHAR2(100)
 );
@@ -96,7 +96,7 @@ DELETE FROM sensitive_data WHERE id = 1;
 - Add a `last_modified` column to the `products` table.
 - Write a **BEFORE UPDATE** trigger on the `products` table to set the `last_modified` column to the current timestamp whenever an update occurs.
 - Program
-CREATE TABLE products (
+- CREATE TABLE products (
     product_id NUMBER,
     product_name VARCHAR2(50),
     price NUMBER,
@@ -129,7 +129,7 @@ SELECT * FROM products;
 - Create an `audit_log` table with a counter column.
 - Write an **AFTER UPDATE** trigger on the `customer_orders` table to increment the counter in the `audit_log` table every time a record is updated.
 - Program
-CREATE TABLE customer_orders (
+- CREATE TABLE customer_orders (
     order_id NUMBER,
     customer_name VARCHAR2(50),
     amount NUMBER
@@ -165,7 +165,7 @@ SELECT * FROM audit_log;
 - Write a **BEFORE INSERT** trigger on the `employees` table to check if the inserted salary meets a specific condition (e.g., salary must be greater than 3000).
 - If the condition is not met, raise an error to prevent the insert.
 - Program
-CREATE TABLE employees (
+- CREATE TABLE employees (
     emp_id NUMBER,
     emp_name VARCHAR2(50),
     salary NUMBER
@@ -190,5 +190,6 @@ SELECT * FROM employees;
 
 ## RESULT
 Thus, the PL/SQL trigger programs were written and executed successfully.
+
 
 
